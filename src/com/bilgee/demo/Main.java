@@ -2,12 +2,20 @@ package com.bilgee.demo;
 
 import com.bilgee.demo.model.Student;
 
+import java.sql.SQLOutput;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
 
     public static void main(String[] args) {
+       // New Branch ----> Main Class
+        Scanner Scan = new Scanner(System.in);
+        System.out.println("Skriv ditt namn:");
+        Scan.nextLine();
+
+
         /*TODO
             Instantiera objekterna
          */
