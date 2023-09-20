@@ -3,11 +3,21 @@ package com.bilgee.demo;
 import com.bilgee.demo.model.Student;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
 
     public static void main(String[] args) {
+
+        // Master branch ---> Main class ändring Uppgift 6
+        Scanner scan = new Scanner(System.in);
+
+
+
+
+
+
         /*TODO
             Instantiera objekterna
          */
@@ -43,6 +53,7 @@ public class Main {
             Skriver ut doubleMyAge metoden.
          */
         System.out.println(benny.bonusDoubleMyAge());
+
 
 
 
